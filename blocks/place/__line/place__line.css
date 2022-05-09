@@ -1,0 +1,23 @@
+.place__line {
+  display: flex;
+  margin-bottom: 47px;
+}
+
+@media (max-width: 768px) {
+  .place__line {
+    margin-bottom: 43px;
+  }
+}
+
+@media (max-width: 670px) {
+  .place__line {
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__line {
+    margin-bottom: 32px;
+  }
+}
