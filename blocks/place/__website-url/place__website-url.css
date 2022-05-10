@@ -8,10 +8,8 @@ text-transform: uppercase;
 margin: 0 0 9px;
 }
 
-@media (max-width: 1024px) {}
-
 @media (max-width: 768px) {
+  .place__website-url {
   line-height: 12px;
+  }
 }
-
-@media (max-width: 320px) {}
