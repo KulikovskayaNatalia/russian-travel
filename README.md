@@ -1,6 +1,6 @@
-# Второй проект по курсу Фронтенд-разработка от Яндекс.Практикума
+# Второй проект по курсу Web-разработка от Яндекс.Практикума
 
-Link: https://github.com/KulikovskayaNatalia/russian-travel
+Link: [ulikovskayaNatalia/russian-travel](https://kulikovskayanatalia.github.io/russian-travel/)
 
 ## Описание проекта
 Проект представляет собой одно-страничный адаптивный сайт с информацией о путешествиях по России. 
