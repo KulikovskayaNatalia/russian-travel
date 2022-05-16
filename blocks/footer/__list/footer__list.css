@@ -11,10 +11,19 @@
   }
 }
 
-@media (max-width: 320px) {
+
+@media (max-width: 650px) {
   .footer__list {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: 4px 0 0 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__list {
+    margin: 4px 0 0 16px;
+    flex-direction: column;
+  flex-wrap: nowrap;
   }
 }

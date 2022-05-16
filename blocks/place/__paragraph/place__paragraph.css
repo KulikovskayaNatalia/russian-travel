@@ -20,8 +20,21 @@
   }
 }
 
+@media (max-width: 670px) {
+  .place__paragraph {
+    max-width: 98%;
+  }
+}
+
 @media (max-width: 320px) {
   .place__paragraph {
-    max-width: 288px;
+    margin: 0 auto;
+    max-width: 285px;
+  }
+}
+
+@media (max-width: 316px) {
+  .place__paragraph {
+    max-width: 90%;
   }
 }

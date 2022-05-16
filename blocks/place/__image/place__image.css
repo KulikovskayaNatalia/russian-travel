@@ -1,11 +1,14 @@
 .place__image {
   max-width: 460px;
   object-fit: contain;
+  margin: 0 40px 0 0;
 }
 
 @media (max-width: 1024px) {
   .place__image {
     max-width: 440px;
+    align-self: flex-start;
+    margin: 0 34px 0 0;
   }
 }
 
@@ -13,11 +16,12 @@
   .place__image {
     max-width: 340px;
     align-self: flex-start;
+    margin: 0 20px 0 0;
   }
 }
 
 @media (max-width: 320px) {
   .place__image {
-    max-width: 320px;
+    max-width: 100%;
   }
 }

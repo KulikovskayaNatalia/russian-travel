@@ -1,34 +1,116 @@
-.cover__title {
-  font-family: 'Inter';
+ .cover__title {
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
   text-align: center;
-  color: #FFFFFF;
-  margin: 255px 312px 32px 312px;
-  max-width: 560px;
-  z-index: 1;
-  position: relative;
+  /* margin: 0 312px 32px 312px; */
+  margin: 0 auto 32px;
+  max-width: 100%;
+  z-index: 2;
+  position: absolute;
+  top: 274px;
 }
 
 @media (max-width: 1024px) {
   .cover__title {
-    margin: 197px 312px 32px 304px;
+    top: 31%;
+      left: 15%;
+      width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  @media (max-width: 1024px) {
     .cover__title {
-      margin: 116px 312px 32px 304px;
+      /* margin: 116px 312px 32px 304px; */
+      width: 70%;
+      top: 15%;
+      /* left: -26%; */
+      margin: 0 auto;
     }
+  }
+
+
+@media (max-width: 650px) {
+  .cover__title {
+      font-size: 34px;
+      line-height: 38px;
+      width: 65%;
+      margin: 0 auto;
   }
 }
 
 @media (max-width: 320px) {
   .cover__title {
-    font-size: 32px;
+    font-weight: 900;
+font-size: 32px;
     line-height: 35px;
-    margin: 31px 312px 17px 304px;
+    /* margin: 0 32px 17px 120px; */
+width: 288pxw;
+top: 16%;
+left: 25%;
+  }
+} 
+
+/* .cover__title {
+  position: absolute;
+  top: 274px;
+  z-index: 3;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .cover__title {
+      top: 38%;
+      left: 50%;
+      width: 50%;
+      transform: translate(-50%);
   }
 }
+
+@media (max-width: 986px) {
+  .cover__title {
+      width: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__title {
+      font-size: 72px;
+      top: 34%;
+      width: 70%;
+      line-height: 78px;
+  }
+}
+
+@media (max-width: 700px) {
+  .cover__title {
+      font-size: 40px;
+      line-height: 45px;
+      width: 70%;
+      top: 39%;
+  }
+}
+
+@media (max-width: 390px) {
+  .cover__title {
+      font-size: 36px;
+      line-height: 38px;
+      width: 65%;
+  }
+}
+
+@media (max-width: 375px) {
+  .cover__title {
+      font-size: 32px;
+      line-height: 35px;
+      top: 39%;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__title {
+      width: 75%;
+      top: 30%;
+  }
+} */

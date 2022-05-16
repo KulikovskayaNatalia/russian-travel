@@ -21,6 +21,14 @@
   }
 }
 
+@media (max-width: 563px) {
+  .place__website {
+    max-width: 352px;
+    margin-left: 0;
+  }
+}
+
+
 @media (max-width: 320px) {
   .place__website {
     max-width: 288px;
