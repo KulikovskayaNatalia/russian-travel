@@ -7,7 +7,7 @@
 }
 
 .cover:hover .cover__container::before {
-    opacity: 0.5;
+    opacity: 0.4;
     transition: opacity 0.3s linear;
 }
 
