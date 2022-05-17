@@ -7,4 +7,3 @@ Link: [KulikovskayaNatalia/russian-travel](https://kulikovskayanatalia.github.io
 
 ## Технологии использованные для реализации проекта
 HTML, CSS, GIT
-

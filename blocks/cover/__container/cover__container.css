@@ -1,7 +1,7 @@
 .cover__container {
     position: relative;
     max-width: 1184px;
-    min-height: 740px;
+    height: 740px;
 }
 
 .cover__container::before {
@@ -19,8 +19,8 @@
 
 @media (max-width: 1024px) {
     .cover__container {
-        min-height: 640px;
-        /* height: auto; */
+        min-height: 562px;
+        height: auto;
     }
 }
 
@@ -29,16 +29,9 @@
         min-height: 480px;
     }
 }
-/* 
-@media (max-width: 375px) {
-    .cover__container {
-        min-height: 272px;
-    }
-} */
 
 @media (max-width: 320px) {
     .cover__container {
         min-height: 200px;
-        max-width: 320px;
     }
 }

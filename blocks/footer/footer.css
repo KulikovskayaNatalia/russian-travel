@@ -24,7 +24,7 @@
   .footer {
     flex-direction: column;
     justify-content: space-between;
-      }
+  }
 }
 
 @media (max-width: 320px) {

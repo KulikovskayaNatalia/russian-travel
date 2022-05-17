@@ -24,6 +24,6 @@
   .footer__list {
     margin: 4px 0 0 16px;
     flex-direction: column;
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 }

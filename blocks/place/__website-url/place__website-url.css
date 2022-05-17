@@ -1,15 +1,15 @@
 .place__website-url {
-font-weight: 400;
-font-size: 12px;
-line-height: 20px;
-letter-spacing: 2px;
-color: #aaa;
-text-transform: uppercase;
-margin: 0 0 9px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  color: #aaa;
+  text-transform: uppercase;
+  margin: 0 0 9px;
 }
 
 @media (max-width: 768px) {
   .place__website-url {
-  line-height: 12px;
+    line-height: 12px;
   }
 }
