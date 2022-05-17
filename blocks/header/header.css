@@ -1,9 +1,8 @@
 .header {
-  max-width: 1084px;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   padding: 28px 0px 0;
-
 }
 
 @media (max-width: 1024px) {

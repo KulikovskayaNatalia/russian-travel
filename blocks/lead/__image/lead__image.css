@@ -2,17 +2,17 @@
   max-width: 100%;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .lead__image {
     max-width: 100%;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .lead__image {
     max-width: 100%;
   }
-}
+} */
 
 @media (max-width: 100%) {
   .lead__image {

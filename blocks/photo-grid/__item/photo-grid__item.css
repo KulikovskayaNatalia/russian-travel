@@ -1,8 +1,14 @@
 .photo-grid__item {
-  max-width: 284px;
+  /* max-width: 284px; */
+  max-width: 100%;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 400px) {
+  .photo-grid__item {
+      min-height: 232px;
+  }
+} */
+/* @media (max-width: 1024px) {
   .photo-grid__item {
     max-width: 300px;
   }
@@ -12,10 +18,10 @@
   .photo-grid__item {
     max-width: 352px;
   }
-}
+}*/
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .photo-grid__item {
-    max-width: 288px;
+    max-width: 100%;
   }
-}
+}  */

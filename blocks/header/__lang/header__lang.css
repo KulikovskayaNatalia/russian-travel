@@ -1,9 +1,11 @@
 .header__lang {
   font-size: 25px;
   margin-top: 16px;
-  width: 76px;
+  max-width: 76px;
   display: flex;
   justify-content: space-between;
+  list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 1024px) {
@@ -14,7 +16,7 @@
 
 @media (max-width: 320px) {
   .header__lang {
-    width: 63px;
-    margin-top: 17px;
+    max-width: 63px;
+    margin-top: 8px;
   }
 }

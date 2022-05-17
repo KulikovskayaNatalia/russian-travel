@@ -4,34 +4,49 @@
   line-height: 100px;
   max-width: 720px;
   text-align: center;
-  margin: 0px 0px 0px 107px;
+  margin: 34px 14% 0px;
 }
 
 @media (max-width: 1024px) {
   .lead__title {
-    margin: 0px 0px 0px 104px;
-    max-width: 720px;
+    margin: 25px auto;
+    /* max-width: 720px; */
   }
 }
 
 @media (max-width: 768px) {
   .lead__title {
-    margin: -9px 0px 0px 23px;
+    /* исправь марджин! */
+    margin: 25px auto 0px;
   }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .lead__title {
     font-size: 56px;
     line-height: 60px;
     margin: -9px 0px 0px 6px;
+    
   }
-}
+} */
 
-@media (max-width: 767px) {
+
+ /* объединить с 768!! */
+/* @media (max-width: 767px) {
   .lead__title {
-    font-size: 44px;
+    font-size: 52px;
     line-height: 40px;
+    max-width: 548px;
+    margin: 0 11%;
+  }
+} */
+
+@media (max-width: 490px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 548px;
+    margin: 0 auto 0;
   }
 }
 
@@ -40,5 +55,6 @@
     font-size: 40px;
     /* line-height: 44px; */
     max-width: 288px;
+    /* margin: 0 auto 0; */
   }
 }

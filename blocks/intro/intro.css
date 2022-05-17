@@ -9,15 +9,15 @@
   .intro {
     margin: 94px 0 0 47px;
     max-width: 690px;
-    padding: 0;
+    
   }
 }
 
 @media (max-width: 768px) {
   .intro {
-    margin: 94px auto 0;
+    margin: 90px auto 0;
     max-width: 720px;
-    padding: 0;
+    
   }
 }
 
@@ -25,6 +25,6 @@
   .intro {
     margin: 65px auto 0;
     max-width: 288px;
-    padding: 0;
+   
   }
 }

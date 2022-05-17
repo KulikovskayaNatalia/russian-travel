@@ -11,7 +11,6 @@
   }
 }
 
-
 @media (max-width: 650px) {
   .footer__list {
     display: flex;
@@ -22,7 +21,7 @@
 
 @media (max-width: 320px) {
   .footer__list {
-    margin: 4px 0 0 16px;
+    /* margin: 4px 0 0 16px; */
     flex-direction: column;
     flex-wrap: nowrap;
   }
