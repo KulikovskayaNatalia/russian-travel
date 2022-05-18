@@ -1,35 +1,15 @@
 .cover {
-    margin: 110px auto 0;
-    max-width: 1184px;
-    
-}
-
-/* .cover:hover {
-    cursor: pointer;
-}
-
-.cover:hover .cover__container::before {
-    opacity: 0.4;
-    transition: opacity 0.3s linear;
-} */
-
-@media (max-width: 1024px) {
-    .cover {
-        margin: 90px auto 0;
-        max-width: 1024px;
-    }
+    margin: 93px auto 0
 }
 
 @media (max-width: 768px) {
     .cover {
-        margin: 139px auto 0;
-        max-width: 720px;
+        margin: 141px auto 0;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
-        margin: 20px auto 0;
-        max-width: 320px;
+        margin: 0;
     }
 }

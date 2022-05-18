@@ -5,7 +5,7 @@
 
 @media (max-width: 1024px) {
   .place {
-    margin: 0 aito 74px;
+    margin: 0 auto 74px;
     max-width: 928px;
   }
 }

@@ -1,8 +1,6 @@
 .places {
-  margin: 95px auto 0;
-  /* padding: 0 148px; */
-  /* box-sizing: border-box; */
   max-width: 984px;
+  margin: 95px 0 0 6%;
 }
 
 @media (max-width: 1024px) {
@@ -14,7 +12,6 @@
 
 @media (max-width: 768px) {
   .places {
-    /* margin: 88px 0 24px 24px; */
     margin: 88px auto 24px;
     max-width: 720px;
   }
@@ -22,7 +19,6 @@
 
 @media (max-width: 320px) {
   .places {
-    /* margin: 64px 0 26px 0; */
     margin: 64px auto 26px;
     max-width: 320px;
   }

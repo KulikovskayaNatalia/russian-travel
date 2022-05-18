@@ -4,12 +4,17 @@
     max-width: 360px;
     line-height: 22px;
     text-align: center;
-    z-index: 3;
+    z-index: 1;
+    margin: 29px auto 0;
+    position: relative;
+    margin: 2% auto 0;
+
 }
 
 @media (max-width: 1024px) {
     .cover__subtitle {
         width: 36%;
+        margin: 3% auto 0;
 
     }
 }
@@ -17,15 +22,15 @@
 @media (max-width: 768px) {
     .cover__subtitle {
         width: 50%;
-
+        margin: 4% auto 0;
     }
 }
 
 @media (max-width: 320px) {
     .cover__subtitle {
-        width: 87%;
+        width: 83%;
         font-size: 14px;
         line-height: 16px;
-        margin: 0;
+        margin: 15px auto 0px;
     }
 }

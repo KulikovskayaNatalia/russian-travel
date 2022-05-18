@@ -19,7 +19,12 @@
         line-height: 46px;
         max-width: 340px;
         margin: 0;
+    }
+}
 
+@media (max-width: 670px) {
+    .place__title {
+        margin: 0 0 0 17px;
     }
 }
 

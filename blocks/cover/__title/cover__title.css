@@ -2,20 +2,24 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    z-index: 3;
+    z-index: 1;
     max-width: 560px;
     text-align: center;
+    margin: 21% auto 0;
+    position: relative;
 }
 
 @media (max-width: 1024px) {
     .cover__title {
         width: 50%;
+        margin: 19% auto 0;
     }
 }
 
 @media (max-width: 890px) {
     .cover__title {
         width: 70%;
+        margin: 15% auto 0;
     }
 }
 
@@ -35,10 +39,11 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .cover__title {
         font-size: 32px;
         max-width: 288px;
         line-height: 35px;
+        margin: 10% auto 0;
     }
 }
