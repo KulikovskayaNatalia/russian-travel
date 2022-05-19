@@ -1,6 +1,6 @@
 .header__lang {
   font-size: 25px;
-  margin-top: 16px;
+  margin: 16px 0 0 0;
   max-width: 76px;
   display: flex;
   justify-content: space-between;
@@ -10,13 +10,13 @@
 
 @media (max-width: 1024px) {
   .header__lang {
-    margin-top: 20px;
+    margin: 20px 0 0 0;
   }
 }
 
 @media (max-width: 320px) {
   .header__lang {
     max-width: 63px;
-    margin-top: 8px;
+    margin: 8px 0 0 0;
   }
 }
