@@ -15,8 +15,14 @@
 @media (max-width: 768px) {
   .place__image {
     max-width: 340px;
-    margin: 0 auto;
+    margin: 0;
     align-self: flex-start;
+  }
+}
+
+@media (max-width: 670px) {
+  .place__image {
+    margin: 0 0 0 17px;
   }
 }
 

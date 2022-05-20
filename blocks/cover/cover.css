@@ -4,12 +4,12 @@
 
 @media (max-width: 768px) {
     .cover {
-        margin: 141px auto 0;
+        margin: 90px auto 0;
     }
 }
 
 @media (max-width: 320px) {
     .cover {
-        margin: 0;
+        margin: 29px 0 0 0;
     }
 }

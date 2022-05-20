@@ -4,9 +4,14 @@
   max-width: 984px;
 }
 
+.place__line:last-of-type {
+  margin: 0 auto;
+}
+
 @media (max-width: 1024px) {
   .place__line {
     max-width: 928px;
+    margin-bottom: 46px;
   }
 }
 

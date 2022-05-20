@@ -14,7 +14,6 @@
 @media (max-width: 650px) {
   .footer__list {
     margin: 4px auto 16px;
-    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
   }

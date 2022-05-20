@@ -1,7 +1,7 @@
 .header__lang {
   font-size: 25px;
   margin: 16px 0 0 0;
-  max-width: 76px;
+  width: 77px;
   display: flex;
   justify-content: space-between;
   list-style: none;
